@@ -1,6 +1,6 @@
 CREATE OR REPLACE VIEW `root-micron-336614.dataset_example.view_cart_latest`
 OPTIONS(
-description="the latest representation of each cart"
+description="the latest representation of each cart-new"
 )
 AS
 SELECT * EXCEPT(row_number)
